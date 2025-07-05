@@ -15,9 +15,9 @@ let charadex = {};
 /* Any preview links will still show Charadex's information
 /* ==================================================================== */
 charadex.site = {
-  title: "Charadex",
-  url: "https://charadex-team.github.io/charadex-v1.0/",
-  description: `A tool for organizing small ARPGs and species.`
+  title: "Inpolaris",
+  url: "https://www.inpolaris.com/",
+  description: `A place for keeping track of those that reside on Inpolaris.`
 }
 
 /* ==================================================================== */
@@ -26,7 +26,7 @@ charadex.site = {
 /* ==================================================================== */
 charadex.sheet = {
 
-  id: "1GwgfLizD3HQCieGia6di-TfU4E3EipT9Jb0BDZQwNak",
+  id: "13_uOplkrRY_tNOmlSTzy-3muztr5IlcU6_vi-eFR1Ec",
 
   pages: {
     masterlist:    "masterlist",
