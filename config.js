@@ -16,7 +16,7 @@ let charadex = {};
 /* ==================================================================== */
 charadex.site = {
   title: "Inpolaris",
-  url: "https://x-heda.github.io/Sonaworld/",
+  url: "https://x-heda.github.io/Inpolaris/",
   description: `A place for keeping track of those that reside on Inpolaris.`
 }
 
