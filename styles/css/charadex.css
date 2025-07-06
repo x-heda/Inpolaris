@@ -631,7 +631,7 @@ img {
 
 /* Specifically for the body */
 #charadex-body {
-  display: none;
+  display: block;
 }
 
 #charadex-body.active {
