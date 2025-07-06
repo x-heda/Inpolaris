@@ -1,220 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-  <!-- ----------------------------------------------------------------- -->
-  <!-- About Your Site                                                   -->
-  <!-- ----------------------------------------------------------------- -->
-  <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
   <title>Inpolaris World</title>
-  <meta name="title" content="Inpolaris World" />
-  <meta name="type" content="website" />
-  <meta name="url" content="https://x-heda.github.io/Inpolaris/" />
-  <meta name="image" content="assets/meta.png" />
+  <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
   <meta name="description" content="A tool for organizing small ARPGs and species.">
 
-  <!-- No AI scraping directives -->
-  <meta name="robots" content="noai">
-  <meta name="robots" content="noimageai">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="stylesheet" type="text/css" href="styles/css/charadex.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400|Comfortaa:500" rel="stylesheet" />
 
-
-  <!-- ----------------------------------------------------------------- -->
-  <!-- Styles                                                            -->
-  <!-- ----------------------------------------------------------------- -->
-
-  <!-- Bootstrap CSS -->
-  <!-- Using Bootstrap 4.5 because its closest to Toyhou.se's current version -->
-  <!-- https://getbootstrap.com/docs/4.5/getting-started/introduction/ -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
-  <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-
-
-  <!-- ----------------------------------------------------------------- -->
-  <!-- Optional Styles                                                   -->
-  <!-- ----------------------------------------------------------------- -->
-
-  <!-- Custom CSS -->
-  <link rel="stylesheet" type="text/css" href="styles/css/charadex.css">
-
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400|Comfortaa:500" rel="stylesheet">
-
-
+  <style>
+    #charadex-body {
+      display: block !important;
+      opacity: 1 !important;
+    }
+  </style>
 </head>
 
 <body id="charadex-body">
 
+  <!-- Hardcoded Header -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Inpolaris</a>
+  </nav>
 
-  <!-- --------------------------------------------------------------------
-  <-- Header
-  <-------------------------------------------------------------------- -->
-  <div class="load-html" id="header" data-source="includes/header.html"></div>
-
-
-  <!-- --------------------------------------------------------------------
-  <-- Main List
-  <-------------------------------------------------------------------- -->
+  <!-- Main Content -->
   <div class="container" id="main-container">
     <div class="card p-md-5 p-4">
 
-      <!-- General Info
-      <-------------------------------------------------------------------- -->
       <div class="p-3">
-        <h3 class="text-primary mb-3"></h3>
+        <h3 class="text-primary mb-3">Inpolaris World</h3>
         <div class="px-4">
-          <p>
-            
-          
-          
 
-
-
-<!--
-
-  【HTML】Bubble Card Pack by Cheeriko
-  
-  ---
-  
-  Important Links
-  
-    ❥ Terms of Use - https://toyhou.se/~world/139142.cheerikos-templates/page/84473.tos-faq
-    ❥ Help Desk - https://toyhou.se/~forums/44815.help-desk
-    ❥ Donate - https://ko-fi.com/cheeriko
-  
-  ---
-  
-  Info
-  
-    ❥ Avatar should be square
-    ❥ Banner can be any size
-
-  
--->
+<!-- --------------------------------------------
+    Bubble Card Layout Starts
+--------------------------------------------- -->
 <div class="my-md-5 my-3 mx-auto" style="max-width:750px">
   <div class="row no-gutters">
     
-    
-    <!-- 【 HEADER 】 
-      ----------------------------------------------------- -->
+    <!-- Top Banner -->
     <div class="col-12 p-1">
       <div class="card h-100" style="border-radius:.75rem;min-height:55px;
-        
         background: url(https://placehold.co/1500x1500.png);
         background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat">
-  
+        background-position: center;">
       </div>
     </div>
     
-    
-    <!-- 【 Left Side 】 
-      ----------------------------------------------------- -->
+    <!-- Avatar & Basic Info -->
     <div class="col-sm-12 p-1">
       <div class="card bg-faded d-flex h-100 p-2" style="border-radius:.75rem;">
         <div class="my-auto text-center">
-        <!-- 【 Username 】  -->
-        <div class="text-center text-uppercase display-4 text-primary mb-2" style="font-size:18px;letter-spacing:1px;">
-  
-          Inpolaris
-  
-        </div>
-        <hr class="my-1 mx-2">
-          
-          <!-- 【 Avatar 】  -->
-          <img src="https://placehold.co/1500x1500.png" class="img-thumbnail fr-rounded" style="width:250px;">
-          
-          
-          <!-- 【 Descrips 】  -->
-          <div class="text-muted pt-2" style="font-size:12px;">
-  
-            post-apocalyptic . the 100/scp/mad max/backrooms inspired . melting pot of species
-  
+          <div class="text-center text-uppercase display-4 text-primary mb-2" style="font-size:18px;letter-spacing:1px;">
+            Inpolaris
           </div>
-          
-          
+          <hr class="my-1 mx-2">
+          <img src="https://placehold.co/1500x1500.png" class="img-thumbnail fr-rounded" style="width:250px;">
+          <div class="text-muted pt-2" style="font-size:12px;">
+            post-apocalyptic · inspired by the 100 / SCP / Mad Max / Backrooms · melting pot of species
+          </div>
         </div>
       </div>
     </div>
     
-    
-    
-        <!-- 【 MIDDLE 】 
-      ----------------------------------------------------- -->
+    <!-- Middle Banner -->
     <div class="col-12 p-1">
       <div class="card h-100" style="border-radius:.75rem;min-height:55px;
-        
         background: url(https://placehold.co/1500x1500.png);
         background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat">
-  
+        background-position: center;">
       </div>
     </div>
-    
-    
-    
-    <!-- 【 Right Side 】 
-      ----------------------------------------------------- -->
-    <div class="col-sm-21 p-1">
+
+    <!-- Text Info -->
+    <div class="col-sm-12 p-1">
       <div class="card bg-faded h-100 pt-3 pb-2 px-2" style="border-radius:.75rem;">
-        
-        
-
-        
-        
-        <!-- 【 About 】  -->
         <div class="p-2 text-center text-muted mb-auto" style="font-size:12px;">
-  
-          <p>Suspendisse potenti. Nunc sed porttitor urna. Curabitur venenatis felis eu efficitur feugiat. Morbi id eros placerat, iaculis dolor sit amet, facilisis neque. Nunc at dolor sed tortor feugiat egestas. Suspendisse potenti. Nunc sed porttitor urna. Curabitur venenatis felis eu efficitur feugiat. Morbi id eros placerat, iaculis dolor sit amet, facilisis neque. Nunc at dolor sed tortor feugiat egestas. Suspendisse potenti. Nunc sed porttitor urna. Curabitur venenatis felis eu efficitur feugiat. Morbi id eros placerat, iaculis dolor sit amet, facilisis neque. Nunc at dolor sed tortor feugiat egestas. Suspendisse potenti. Nunc sed porttitor urna. Curabitur venenatis felis eu efficitur feugiat. Morbi id eros placerat, iaculis dolor sit amet, facilisis neque. Nunc at dolor sed tortor feugiat egestas. Suspendisse potenti. Nunc sed porttitor urna. Curabitur venenatis felis eu efficitur feugiat. Morbi id eros placerat, iaculis dolor sit amet, facilisis neque. Nunc at dolor sed tortor feugiat egestas. Suspendisse potenti. Nunc sed porttitor urna. Curabitur venenatis felis eu efficitur feugiat. Morbi id eros placerat, iaculis dolor sit amet, facilisis neque. Nunc at dolor sed tortor feugiat egestas. Suspendisse potenti. Nunc sed porttitor urna. Curabitur venenatis felis eu efficitur feugiat. Morbi id eros placerat, iaculis dolor sit amet, facilisis neque. Nunc at dolor sed tortor feugiat egestas.</p>
-  
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed arcu vel sem cursus hendrerit. In a dui sit amet lacus rhoncus dapibus. Vivamus vitae augue nec justo blandit luctus. Morbi in orci erat. Duis id leo a odio tincidunt posuere. Proin consectetur dolor sit amet augue egestas laoreet.</p>
         </div>
+
         <hr class="my-1 mx-2">
-        <!-- 【 About 】  -->
-        <div class="p-2 text-center text-muted mb-auto" style="font-size:12px;">
-  
-          <p>Suspendisse potenti. Nunc sed porttitor urna. Curabitur venenatis felis eu efficitur feugiat. Morbi id eros placerat, iaculis dolor sit amet, facilisis neque. Nunc at dolor sed tortor feugiat egestas. Suspendisse potenti. Nunc sed porttitor urna. Curabitur venenatis felis eu efficitur feugiat. Morbi id eros placerat, iaculis dolor sit amet, facilisis neque. Nunc at dolor sed tortor feugiat egestas. Suspendisse potenti. Nunc sed porttitor urna. Curabitur venenatis felis eu efficitur feugiat. Morbi id eros placerat, iaculis dolor sit amet, facilisis neque. Nunc at dolor sed tortor feugiat egestas. Suspendisse potenti. Nunc sed porttitor urna. Curabitur venenatis felis eu efficitur feugiat. Morbi id eros placerat, iaculis dolor sit amet, facilisis neque. Nunc at dolor sed tortor feugiat egestas. Suspendisse potenti. Nunc sed porttitor urna. Curabitur venenatis felis eu efficitur feugiat. Morbi id eros placerat, iaculis dolor sit amet, facilisis neque. Nunc at dolor sed tortor feugiat egestas. Suspendisse potenti. Nunc sed porttitor urna. Curabitur venenatis felis eu efficitur feugiat. Morbi id eros placerat, iaculis dolor sit amet, facilisis neque. Nunc at dolor sed tortor feugiat egestas. Suspendisse potenti. Nunc sed porttitor urna. Curabitur venenatis felis eu efficitur feugiat. Morbi id eros placerat, iaculis dolor sit amet, facilisis neque. Nunc at dolor sed tortor feugiat egestas.</p>
-  
-        </div>
-        
-        <!-- 【 Links 】  -->
-        <div class="card d-block text-center p-1 mt-2" style="border-radius:.65rem;font-size:14px;letter-spacing:1px;word-spacing:3px;">
 
+        <div class="p-2 text-center text-muted mb-auto" style="font-size:12px;">
+          <p>More worldbuilding here. Add extra paragraphs, character factions, zone descriptions, or historical timelines. Format it however you like using the same HTML structure.</p>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="card d-block text-center p-1 mt-2" style="border-radius:.65rem;font-size:14px;letter-spacing:1px;word-spacing:3px;">
           SOME LINKS BUT IDK TO WHAT YET
           <a href="#"><i class="fab fa-twitter tooltipster" title="twitter"></i></a>
           <a href="#"><i class="fab fa-tumblr tooltipster" title="tumblr"></i></a>
           <a href="#"><i class="fab fa-deviantart tooltipster" title="deviantart"></i></a>
           <a href="#"><i class="fas fa-paw tooltipster" title="furaffinity"></i></a>
           <a href="#"><i class="fas fa-id-card tooltipster" title="carrd"></i></a>
-
         </div>
-        
-        
+      </div>
+    </div>
+
+    <!-- Bottom Banner -->
+    <div class="col-12 p-1">
+      <div class="card h-100" style="border-radius:.75rem;min-height:55px;
+        background: url(https://placehold.co/1500x1500.png);
+        background-size: cover;
+        background-position: center;">
       </div>
     </div>
   </div>
-  
-      <!-- 【 FOOTER 】 
-      ----------------------------------------------------- -->
-    <div class="col-12 p-1">
-      <div class="card h-100" style="border-radius:.75rem;min-height:55px;
-        
-        background: url(https://placehold.co/1500x1500.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat">
-  
-      </div>
-    </div>
-  
-  <!-- Credit | Do not remove -->
+</div>
+
+<!-- Credit -->
 <div style="
   position: fixed;
   bottom:12px;
@@ -223,49 +121,19 @@
   z-index:9999;
   background:rgba(255,255,255,0.85);
   padding:4px 6px;
-  border-radius:6px;
-">
-  <a href="https://toyhou.se/2900185"><i class="fal fa-code"></i></a>
+  border-radius:6px;">
   <a href="https://toyhou.se/2900185"><i class="fal fa-code"></i></a>
 </div>
 
-
-
-
-
-
-            
-            
-          
-          
-          
-          
-          </p>
         </div>
       </div>
-
     </div>
   </div>
 
-  <!-- --------------------------------------------------------------------
-  <-- Footer
-  <-------------------------------------------------------------------- -->
-  <div class="load-html" id="footer" data-source="includes/footer.html"></div>
-
-  <!-- ----------------------------------------------------------------- -->
-  <!-- JS                                                                -->
-  <!-- ----------------------------------------------------------------- -->
-
-  <!-- JQuery -->
-  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-
-  <!-- Bootstrap -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
-  <!-- Charadex Script -->
-  <script src="styles/js/pages/base.js" type="module"></script>
-
+  <!-- Hardcoded Footer -->
+  <footer class="footer mt-5 text-center text-muted">
+    <small>&copy; 2025 Inpolaris | All rights reserved.</small>
+  </footer>
 
 </body>
-
 </html>
