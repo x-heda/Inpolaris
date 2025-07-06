@@ -24,7 +24,7 @@
 
 <body id="charadex-body">
 
-  <!-- Navbar will be injected here -->
+  <!-- Navbar (loaded dynamically) -->
   <div id="navbar-container"></div>
 
   <!-- Main Content -->
@@ -74,7 +74,7 @@
     </div>
   </div>
 
-  <!-- Scripts -->
+  <!-- Scripts (jQuery must come first!) -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
 
@@ -84,7 +84,8 @@
       .then(res => res.text())
       .then(html => {
         document.getElementById('navbar-container').innerHTML = html;
-      });
+      })
+      .catch(err => console.error('Navbar failed to load:', err));
   </script>
 
 </body>
