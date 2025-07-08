@@ -15,8 +15,8 @@ let charadex = {};
 /* Any preview links will still show Charadex's information
 /* ==================================================================== */
 charadex.site = {
-  title: "Charadex",
-  url: "https://charadex-team.github.io/charadex-v1.0/",
+  title: "Inpolaris",
+  url: "https://x-heda.github.io/Inpolaris/",
   description: `A tool for organizing small ARPGs and species.`
 }
 
