@@ -29,15 +29,15 @@ charadex.sheet = {
   id: "13_uOplkrRY_tNOmlSTzy-3muztr5IlcU6_vi-eFR1Ec",
 
   pages: {
-    masterlist:    "masterlist",
-    masterlistLog: "masterlist log",
-    inventory:     "inventory",
-    inventoryLog:  "inventory log",
-    items:         "items",
-    traits:        "traits",
-    prompts:       "prompts",
-    faq:           "faq",
-    staff:         "mods",
+    masterlist:    "Masterlist",
+    masterlistLog: "Masterlist Log",
+    inventory:     "Inventory",
+    inventoryLog:  "Inventory Log",
+    items:         "Items",
+    traits:        "Traits",
+    prompts:       "Prompts",
+    faq:           "Faq",
+    staff:         "Mods",
   },
 
   options: {
