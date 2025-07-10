@@ -160,14 +160,14 @@ charadex.page.traits = {
 };
 
 
-/* Offworld (Refugee Trait Catalogue)
+/* Refugee Traits
 /* --------------------------------------------------------------- */
 charadex.page.offworld = {
 
   sheetPage: charadex.sheet.pages.offworld,
-  sitePage: 'offworld',
+  sitePage: 'Refugee Traits',
   dexSelector: 'charadex',
-  profileProperty: 'type', // or whatever column header is your unique field
+  profileProperty: 'offworld',
 
   sort: {
     toggle: true,
@@ -183,24 +183,27 @@ charadex.page.offworld = {
   },
 
   filters: {
-    toggle: false,
-    parameters: {}
+    toggle: true,
+    parameters: {
+      'Type': charadex.sheet.options.traitTypes,
+      'Rarity': charadex.sheet.options.rarity,
+    }
   },
 
   fauxFolder: {
-    toggle: false,
-    folderProperty: '',
-    parameters: [],
+    toggle: true,
+    folderProperty: 'Type',
+    parameters: charadex.sheet.options.traitTypes,
   },
 
   search: {
-    toggle: false,
-    filterToggle: false,
-    parameters: []
+    toggle: true,
+    filterToggle: true,
+    parameters: ['All', 'Trait', 'Rarity']
   },
 
   prevNext: {
-    toggle: false,
+    toggle: true,
   },
 
 };
