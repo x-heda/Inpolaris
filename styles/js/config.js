@@ -332,7 +332,7 @@ charadex.page.masterlist = {
       'Design Type': charadex.sheet.options.designTypes,
       'Status': charadex.sheet.options.statuses,
       'Rarity': charadex.sheet.options.rarity,
-      'Off-World': charadex.sheet.options.offWorld
+      'Off-World': charadex.sheet.options.offWorld,
     }
   },
 
