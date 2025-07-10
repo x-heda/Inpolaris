@@ -42,13 +42,13 @@ charadex.sheet = {
 
   options: {
 
-    designTypes: ['All', 'Refugee', 'Homeworld Official Design', 'Homeworld MYO Design', 'Homeworld MYO Slot', 'Other'],
+    designTypes: ['All', 'Refugee', 'Homeworld NPC', 'Homeworld Official Design', 'Homeworld MYO Design', 'Homeworld MYO Slot', 'Other'],
     statuses: ['All', 'Traded', 'Purchased', 'Resold', 'Gift', 'Voided'],
     rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Legendary', 'Unobtainable', 'Off-World'],
     species: ['All', 'Human', 'Anthro', 'Demon', 'Isopup', 'Polybug', 'Succubun', 'Lockette', 'Nymdrya'],
     itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
     traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations'],
-    offWorld: ['All', ]
+    offWorld: ['All', 'Candyfloss']
 
   }
 
@@ -332,6 +332,7 @@ charadex.page.masterlist = {
       'Design Type': charadex.sheet.options.designTypes,
       'Status': charadex.sheet.options.statuses,
       'Rarity': charadex.sheet.options.rarity,
+      'Off-World': charadex.sheet.options.offWorld
     }
   },
 
