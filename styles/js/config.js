@@ -48,7 +48,7 @@ charadex.sheet = {
     species: ['All', 'Human', 'Anthro', 'Demon', 'Isopup', 'Polybug', 'Succubun', 'Lockette', 'Nymdrya'],
     itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
     traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations'],
-    offWorld: ['All', 'Candyfloss']
+    offWorld: ['All', 'Candyfloss'],
 
   }
 
