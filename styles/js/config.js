@@ -42,12 +42,13 @@ charadex.sheet = {
 
   options: {
 
-    designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design'],
-    statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
-    rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Very Rare', 'Legendary'],
-    species: ['All', 'Dog', 'Cat', 'Bunny'],
+    designTypes: ['All', 'Refugee', 'Homeworld Official Design', 'Homeworld MYO Design', 'Homeworld MYO Slot', 'Other'],
+    statuses: ['All', 'Traded', 'Purchased', 'Resold', 'Gift', 'Voided'],
+    rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Legendary', 'Unobtainable', 'Off-World'],
+    species: ['All', 'Human', 'Anthro', 'Demon', 'Isopup', 'Polybug', 'Succubun', 'Lockette', 'Nymdrya'],
     itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
-    traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations']
+    traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations'],
+    offWorld: ['All', ]
 
   }
 
