@@ -160,6 +160,52 @@ charadex.page.traits = {
 };
 
 
+/* Offworld (Refugee Trait Catalogue)
+/* --------------------------------------------------------------- */
+charadex.page.offworld = {
+
+  sheetPage: charadex.sheet.pages.offworld,
+  sitePage: 'offworld',
+  dexSelector: 'charadex',
+  profileProperty: 'trait', // or whatever column header is your unique field
+
+  sort: {
+    toggle: true,
+    key: "id",
+    order: "asc",
+    parameters: []
+  },
+
+  pagination: {
+    toggle: true,
+    bottomToggle: true,
+    amount: 24,
+  },
+
+  filters: {
+    toggle: false,
+    parameters: {}
+  },
+
+  fauxFolder: {
+    toggle: false,
+    folderProperty: '',
+    parameters: [],
+  },
+
+  search: {
+    toggle: false,
+    filterToggle: false,
+    parameters: []
+  },
+
+  prevNext: {
+    toggle: false,
+  },
+
+};
+
+
 /* Prompts
 /* --------------------------------------------------------------- */
 charadex.page.prompts = {
