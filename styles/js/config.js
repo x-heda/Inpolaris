@@ -35,6 +35,7 @@ charadex.sheet = {
     inventoryLog:  "Inventory Log",
     items:         "Items",
     traits:        "Traits",
+    offworld:        "Refugee Traits",    
     prompts:       "Prompts",
     faq:           "Faq",
     staff:         "Mods",
