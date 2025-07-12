@@ -47,7 +47,7 @@ charadex.sheet = {
     statuses: ['All', 'Traded', 'Purchased', 'Resold', 'Gift', 'Voided'],
     rarity: ['All', 'Common', 'Uncommon', 'Rare', 'Legendary', 'Unobtainable', 'Off-World'],
     species: ['All', 'Human', 'Anthro', 'Demon', 'Isopup', 'Polybug', 'Succubun', 'Lockette', 'Nymdrya'],
-    itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Misc'],
+    itemTypes: ['All', 'Old Money', 'Gem', 'Homeworld MYO', 'Companion Voucher', 'Misc'],
     traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations'],
     offWorld: ['All', 'Candyfloss'],
 
